@@ -1,0 +1,15 @@
+@media (max-width: 822px){
+    .menu-large-screen {
+        display: none;
+    }
+    .hmbrg {
+        display: flex;
+    }
+    .nav-logo-small-scrn {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+    }
+}

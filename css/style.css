@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hmbrg {
+    /* border: 2px solid black; */
+    width: 30px;
+    /* background-color: aqua; */
+    /* position: absolute;
+    top: 18px;
+    right: 12px; */
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: none;
+    margin-right: 12px;
+}
+
+.hmbrg #bar1,
+.hmbrg #bar2,
+.hmbrg #bar3 {
+    background: white;
+    width: 100%;
+    margin: 1px 0;
+    padding: 3px 0;
+    border-radius: 4px;
+
+}
+
+nav {
+    background-color: #2874f0;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+    position: fixed;
+    width: 100%;
+    /* width: ; */
+}
+
+.nav-logo-small-scrn {
+    display: none;
+}
+
+ul {
+    background-color: #2874f0;
+    display: flex;
+}
+
+#menu {
+    position: fixed;
+    width: 100vw;
+    background-color: #2874f0;
+    height: 100vh;
+    right: 0px;
+    left: 0;
+    bottom: 0;
+    /* transform: translateX(-1000px); */
+    display: none;
+    transition: all 0.5s;
+}
+
+#menu .close{
+    position: absolute;
+    top: 8px;
+    width: 100vw;
+    right: 0px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.translate {
+    transform: translateX(1000px);
+}
+
+#menu .heading{
+    margin: 50px 32px;
+    margin-bottom: 75px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    gap: 1rem;
+}
+
+#menu form {
+    /* border: 2px solid; */
+    padding: 8px;
+}
+#menu form input {
+    width: 100%;
+    margin: 0;
+    padding: 16px 0;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 24px;
+    border: transparent;
+}
+
+
+img {
+    height: 43px;
+    margin: 12px 28px;
+}
+
+.text-center {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* .text-center:hover{
+    background-color: blueviolet;
+    color: black;
+    border-radius: 5px solid blueviolet;
+} */
+nav ul li:hover{
+    background-color: white;
+    color: #2874f0;
+    border-radius: 15%;
+
+}
+nav ul li {
+    padding-left: 4px ;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    transition: all;
+    cursor: pointer;
+}
+
+.center input {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    /* padding: 12px; */
+    width: 33vw;
+}
+
+
+
+.button {
+    height: 20px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px -12px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 15px solid white;
+}
+
+.background {
+    width: 96vw;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flash {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 35px;
+    font-size: 14px;
+    /* border: 2px solid red; */
+    margin-top: 23px;
+}
+
+.virat {
+    height: 75px;
+}
+
+.cnt {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid red; */
+}
+
+.heads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.heads .cards,
+.heads .my-2 {
+    width: 100%;
+}
+
+.cards .flash .card-items img ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-items {
+    font-size: 16px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.heads {
+    overflow: scroll;
+}
+.vertically-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #2874f0;
+    height: 11vh;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+#menu form .btn {
+    padding: 16px 8px;
+    /* width: 120px; */
+    height: 50px;
+    font-size: 24px;
+
+}
+
